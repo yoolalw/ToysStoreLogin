@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: lightblue;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background: white;
+    padding: 30px;
+    width: 320px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px gray;
+    text-align: center;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0 16px;
+    border: 1px solid dimgray;
+    border-radius: 6px;
+}
+
+input:focus {
+    border-color: chocolate;
+    outline: none;
+    box-shadow: 0 0 4px gray;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: burlywood;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+button:hover {
+    background-color: chocolate;
+}
+
+#msg-system {
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.sucess {
+    color:green;
+}
+
+.error {
+    color: red;
+}
+
+.hidden {
+    display: none;
+}
